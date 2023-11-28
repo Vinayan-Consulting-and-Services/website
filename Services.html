@@ -4,129 +4,163 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   <link rel="shortcut icon" href="/images/vinayan-logoo.jpg" type="image/x-icon">
   <title>Vinayan - Services</title>
 </head>
 
 <body>
   <header>
-    <nav class="bg-white border-gray-200">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" class="flex items-center">
-          <img src="images/vinayan-logoo.jpg" class="h-20 mr-3" alt="Flowbite Logo" />
-          <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap">Flowbite</span> -->
+    <div class="navbar">
+      <div class="navbar-line">
+        <a href="#" class="">
+          <img src="images/vinayan-logo.png" class="navbar-logo" alt="Logo" />
         </a>
-        <button data-collapse-toggle="navbar-default" type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-default" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
-          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M1 1h15M1 7h15M1 13h15" />
-          </svg>
-        </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0">
+        <div class="navbar-content" id="navbar-default">
+          <ul class="nav-ul">
             <li>
-              <a href="index.html" class="block py-2 pl-3 pr-4 text-gray-90 cursor-pointer md:p-0"
-                aria-current="page">Home</a>
+              <a href="/" class="" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="About.html" class="block py-2 pl-3 pr-4 text-gray-90 cursor-pointer md:p-0">
+              <a href="/About.html" class="">
                 About</a>
             </li>
             <li>
-              <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover"
-                class="text-black focus:ring-blue-300 font-medium rounded-lg text-center inline-flex items-center"
-                type="button">Products <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="m1 1 4 4 4-4" />
-                </svg>
-              </button>
-
-              <div id="dropdownHover"
-                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
-                <ul class="py-2 text-md text-gray-700" aria-labelledby="dropdownHoverButton">
-                  <li>
-                    <a href="anpr.html"
-                        class="block px-4 py-2 hover:bg-gray-400 hover:text-white">ANPR</a>
-                </li>
-                <li>
-                    <a href="fourdradar.html"
-                        class="block px-4 py-2 hover:bg-gray-400 hover:text-white">4D radar system</a>
-                </li>
-                <li>
-                    <a href="interceptor.html"
-                        class="block px-4 py-2 hover:bg-gray-400 hover:text-white">Intercepter</a>
-                </li>
-                <li>
-                    <a href="breathalalyzer.html"
-                        class="block px-4 py-2 hover:bg-gray-400 hover:text-white">Breath alcohol analyzer</a>
-                </li>
-                <li>
-                    <a href="speeddisplayboard.html"
-                        class="block px-4 py-2 hover:bg-gray-400 hover:text-white">Speed Display Board</a>
-                </li>
-                <li>
-                    <a href="laserspeeddevice.html"
-                        class="block px-4 py-2 hover:bg-gray-400 hover:text-white">Laser speed Device</a>
-                </li>
-                <li>
-                    <a href="bodywarm.html"
-                        class="block px-4 py-2 hover:bg-gray-400 hover:text-white">Body Warm Camera</a>
-                </li>
-                <li>
-                    <a href="bulletinterceptor.html"
-                        class="block px-4 py-2 hover:bg-gray-400 hover:text-white">Bullet interceptor</a>
-                </li>
-                </ul>
-              </div>
-
-
+              <a href="/Products.html" class="">
+                Products</a>
             </li>
             <li>
-              <a href="Services.html" class="block py-2 pl-3 pr-4 text-gray-90 cursor-pointer md:p-0">
+              <a href="Services.html" class="">
                 Services</a>
             </li>
             <li>
-              <a href="Contact.html" class="block py-2 pl-3 pr-4 text-gray-90 cursor-pointer md:p-0">
+              <a href="Contact.html" class="">
                 Contact</a>
             </li>
           </ul>
         </div>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="dropdown_menu">
+          <li>
+            <a href="/" class="" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="About.html" class="">
+              About</a>
+          </li>
+          <li>
+            <a href="/Products.html" class="">
+              Products</a>
+          </li>
+          <li>
+            <a href="Services.html" class="">
+              Services</a>
+          </li>
+          <li>
+            <a href="Contact.html" class="">
+              Contact</a>
+          </li>
+        </div>
       </div>
-    </nav>
+    </div>
   </header>
 
 
 
-  <div class='text-center mb-5'>
-    <div class="justify-center bg-no-repeat bg-cover h-56" style="background-image: url(images/service-bg1.jpg);">
-      <h1 class="text-5xl text-white pt-28 font-bold text-center drop-shadow-md">Our Services</h1>
-      <hr class='w-48 mt-2 mx-auto h-1 bg-orange-500 border-0 rounded'>
-      </hr>
+  <div class="services-page-div">
+    <div class="services-page-container">
+      <h1>Our Services</h1>
+      <hr>
 
+      <div class="services-content">
+        <div class="service-list">
+          <div class="service">
+            <div class="service-icon">
+              <i class="fa-solid fa-traffic-light"></i>
+            </div>
+            <div class="service-title">
+              <h3>Smart Traffic <br> Management System</h3>
+            </div>
+            <div class="service-description">
+              <p>Smart traffic management optimizes flow, reduces congestion, and enhances safety for efficient urban mobility solutions.</p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
+              </svg>              
+            </div>
+            <div class="service-title">
+              <h3>AI Video <br> Analytic Solutions</h3>
+            </div>
+            <div class="service-description">
+              <p>AI video analytics enhances security, providing real-time insights and automated monitoring for comprehensive surveillance solutions.</p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+              </svg>              
+            </div>
+            <div class="service-title">
+              <h3>Highway Traffic <br> Mangement Software</h3>
+            </div>
+            <div class="service-description">
+              <p>Highway traffic management software optimizes flow, reduces congestion, and enhances safety for efficient road transportation</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="sub-services">
+          <div class="sub-service-card">
+            <div class="left">
+              <img src="https://www.folio3.ai/blog/wp-content/uploads/2023/07/vehicle-license-plate-detection.jpeg" alt="Not available">
+            </div>
+            <div class="right">
+              <p>ANPR: Boost security and efficiency with automated license plate recognition for various applications.</p>
+            </div>
+          </div>
+          <div class="sub-service-card">
+            <div class="right">
+              <p>Overspeed detection as a service ensures safety, alerts, and monitors speed violations for enhanced road security.</p>
+            </div>
+            <div class="left">
+              <img src="https://www.eurekaafricablog.com/wp-content/uploads/2018/06/Cause-Overspeeding.jpg" alt="Not available">
+            </div>
+          </div>
+          <div class="sub-service-card">
+            <div class="left">
+              <img src="https://www.folio3.ai/blog/wp-content/uploads/2023/07/vehicle-license-plate-detection.jpeg" alt="Not available">
+            </div>
+            <div class="right">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, distinctio?</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
     </div>
   </div>
 
 
-  <div>
-    <h3 class="text-4xl pt-28 font-bold text-center drop-shadow-md">Traffic Management</h3>
-    <hr class='w-48 mt-2 mb-10 mx-auto h-1 bg-orange-500 border-0 rounded'>
+  <!-- <div>
+    <h3 class="">Traffic Management</h3>
+    <hr class=''>
     </hr>
     <div>
-      <div class='flex justify-center items-center flex-wrap gap-10'>
+      <div class=''>
 
         <div
-          class="w-96 max-w-sm p-6 flex justify-start items-center gap-5 bg-white border border-gray-200 rounded-lg shadow">
+          class="">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
             stroke="currentColor" class="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round"
               d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
           </svg>
-          <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900">Number Plate Recognition</h5>
+          <h5 class="">Number Plate Recognition</h5>
         </div>
 
         <div
@@ -312,62 +346,58 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
 
 
-  <hr class='mx-24' />
+  <hr>
 
-
-  <footer class="bg-white">
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-      <div class="md:flex md:justify-between">
-        <div class="mb-6 md:mb-0">
-          <a href="#" class="flex items-center">
-            <img src='images/vinayan-logoo.jpg' class="w-48 mr-3" alt="FlowBite Logo" />
-          </a>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#" class="logo">
+                    <img src='images/vinayan-logoo.jpg' class="" alt="FlowBite Logo" />
+                </a>
+            </div>
+            <div class="footer-companyinfo">
+                <h2 class="companyinfo-title">Company</h2>
+                <ul class="company-info-items">
+                    <li class="list">
+                        <a href="About.html" class="link">About</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/vinayan-india-consulting-and-services-pvt-ltd/jobs/" class="link">Careers</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-companyinfo">
+                <h2 class="companysocial-title">Social</h2>
+                <ul class="company-social-items">
+                    <li class="list">
+                        <a href="https://www.linkedin.com/company/vinayan-india-consulting-and-services-pvt-ltd/mycompany/"
+                            target='blank' class=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="hover:underline"><i class="" style="color:rgb(228, 64, 95);"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-companyinfo">
+                <h2 class="companylegal-title">Get In Touch</h2>
+                <ul class="company-legal-items">
+                    <li class="list">
+                        +91-8527988811
+                    </li>
+                    <li class="list">
+                      info@vinayan.net
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-          <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Company</h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
-              <li class="mb-4">
-                <a href="About.html" class="hover:underline">About</a>
-              </li>
-              <li>
-                <a href="#" class="hover:underline">Careers</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
-              <li class="mb-4">
-                <a href="https://www.linkedin.com/company/vinayan-india-consulting-and-services-pvt-ltd/mycompany/" target='blank' class="hover:underline "><i class="fa-brands fa-linkedin text-3xl text-blue-400 mr-3"></i></a>
-                <a href="#" class="hover:underline"><i class="fa-brands fa-instagram text-3xl" style="color:rgb(228, 64, 95);"></i></a>
-            </li>
-            </ul>
-          </div>
-          <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-              </li>
-            </ul>
-          </div>
+        <hr class="footer-downhr" />
+        <div class="footer-downside">
+            <span class="footer-span-last">© 2023 <a href="/index.html" class="footer-span-last-a">Vinayan</a>. All Rights
+                Reserved.
+            </span>
         </div>
-      </div>
-      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="a"
-            class="hover:underline">Vinayan</a>. All Rights Reserved.
-        </span>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 
 
