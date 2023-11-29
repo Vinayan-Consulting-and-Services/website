@@ -1021,6 +1021,9 @@ footer .footer-content .footer-companyinfo .company-social-items li a i {
         color: #818FB4;
         margin-bottom: 20px;
     }
+    .contact .contact-container .contact-content .right {
+        width: 80%;
+    }
 }
 @media screen and (max-width: 650px) {
     .services .service-container .service-cards {
@@ -1077,6 +1080,23 @@ footer .footer-content .footer-companyinfo .company-social-items li a i {
         text-align: center;
         /* margin-bottom: 20px; */
         text-shadow: 1px 2px 12px rgba(0, 0, 0, 1);
+    }
+    .contact .contact-container .contact-content .left .box {
+        width: 360px;
+        height: auto;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 30px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: 30px 0;
+        padding: 10px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        text-align: left;
+    }
+    .contact .contact-container .contact-content .right {
+        width: 90%;
     }
 }
 
