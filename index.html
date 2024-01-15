@@ -4,267 +4,706 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- fonts -->
 
-    <!-- scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="jquery-3.7.1.min.js"></script>
+
     <!-- styles -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="shortcut icon" href="/images/vinayan-logoo.jpg" type="image/x-icon">
-    <title>Welcome to Vinayan</title>
+    <title>Vinayan(India) Consulting and Services PVT LTD</title>
+    <meta name="description"
+        content="Vinayan India is leading the charge in the traffic management solutions by harnessing the power of Artificial Intelligence (AI). We specialise in revolutionising the dynamics of traffic flow, dedicated to creating safer, more efficient, and sustainable transportation networks. Our commitment extends beyond conventional solutions; we leverage AI to tackle the intricate challenges posed by modern urban mobility.">
+    <meta name="keywords" content="Traffic management system, AI-enhanced enforcement, Laser speed enforcement, Breathalyzer technology, ANPR solutions, Interceptor devices, Body-worn camera systems, Display boards for traffic, Intelligent traffic solutions, Smart city enforcement, Automated traffic control, Speed monitoring devices, Breath alcohol detection, ANPR cameras, Laser radar technology, Body cameras for police, Advanced display boards, Integrated AI solutions, Traffic safety technology, Enforcement analytics, Smart traffic monitoring, Laser speed guns, ANPR software, Breath alcohol testing, Traffic enforcement tools, AI-driven interceptors, Body-worn video cameras, Traffic display solutions, Speed measurement devices, ANPR technology, Laser-based enforcement, Advanced breath analyzers, Interceptor systems, Police body cameras, Dynamic display boards, Intelligent traffic management, Laser speed detection, ANPR integrations, Traffic enforcement gadgets, AI-powered surveillance, Breathalyzer devices, Laser-based speed monitoring, Intercepting technology, Police body-worn solutions, Traffic display units, Speed measurement tools, AI-driven traffic safety, Advanced enforcement gadgets, Breathalyzer screening devices, Interceptor technology solutions, Body camera solutions, Display boards integration, AI in traffic control, Laser radar speed guns, ANPR software solutions, Breathalyzer technology solutions, Integrated traffic tools, AI-enhanced interceptors, Police body-worn camera solutions, Dynamic traffic display boards, Speed measurement technology, Smart ANPR systems, Laser speed monitoring innovations, Intercepting technology advancements, Body-worn camera solutions for police, Traffic display innovations, Speed measurement innovations, AI-powered ANPR technology, Advanced laser speed devices, Enforcement analytics solutions, Breathalyzer technology advancements, Interceptor devices for traffic, Police body camera technology, Traffic display units technology, Smart speed measurement tools, AI-driven ANPR technology solutions, Advanced laser speed enforcement devices, Enforcement analytics solutions with AI, Breathalyzer devices for advanced traffic control, Interceptor technology for smart cities, Police body-worn camera technology advancements, Traffic display units technology solutions, AI-powered speed measurement tools for traffic, Advanced traffic enforcement equipment, Breathalyzer testing devices for traffic, Interceptor technology for AI-driven traffic management, Police body camera technology solutions for traffic enforcement, Traffic display innovations with AI integration, Smart speed measurement tools integration for traffic, AI-driven traffic management, Laser speed enforcement solutions, ANPR software innovations, Breathalyzer technology advancements, Integrated traffic enforcement tools, AI-enhanced interceptor devices, Police body camera technology solutions for traffic management, Traffic display units technology solutions for smart cities, AI-powered speed measurement tools for traffic control, Advanced traffic enforcement equipment with AI integration, Breathalyzer testing devices for enhanced smart traffic control, Interceptor technology for AI-driven traffic management solutions, Police body camera technology solutions for advanced traffic enforcement, Traffic display innovations with AI integration for urban mobility, Smart speed measurement tools integration for traffic safety, AI-driven ANPR technology solutions for intelligent traffic management, Advanced laser speed enforcement devices for smart traffic control, Enforcement analytics solutions with AI for enhanced traffic safety, Breathalyzer devices for advanced traffic enforcement solutions, Interceptor devices for intelligent traffic management systems, Police body-worn camera technology advancements for smart cities, Traffic display units technology solutions for enhanced urban mobility, AI-powered speed measurement tools for efficient traffic control, Advanced traffic enforcement equipment with AI integration for optimized traffic solutions, Breathalyzer testing devices for enhanced smart traffic control, Interceptor technology for AI-driven traffic management solutions with precision, Police body camera technology solutions for advanced traffic enforcement and surveillance, Traffic display innovations with AI integration for dynamic urban mobility, Smart speed measurement tools integration for optimized traffic safety, AI-driven ANPR technology solutions for intelligent traffic management and analytics, Advanced laser speed enforcement devices for smart traffic control and monitoring, Enforcement analytics solutions with AI for enhanced traffic safety and control, Breathalyzer devices for advanced traffic enforcement and sobriety testing, Interceptor devices for intelligent traffic management systems with real-time capabilities, Police body-worn camera technology advancements for smart cities and law enforcement, Traffic display units technology solutions for enhanced urban mobility and communication, AI-powered speed measurement tools for efficient traffic control and monitoring, Advanced traffic enforcement equipment with AI integration for optimized traffic solutions and safety, Breathalyzer testing devices for enhanced smart traffic control and law enforcement, Interceptor technology for AI-driven traffic management solutions with precision monitoring, Police body camera technology solutions for advanced traffic enforcement and surveillance, Traffic display innovations with AI integration for dynamic urban mobility and communication, Smart speed measurement tools integration for optimized traffic safety, AI-driven ANPR technology solutions for intelligent traffic management and analytics, Advanced laser speed enforcement devices for smart traffic control and monitoring solutions, Enforcement analytics solutions with AI for enhanced traffic safety and control measures, Breathalyzer devices
+">
+
+
+
+    <!-- tailwind config -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
 
 <body>
-    <header>
-        <div class="navbar">
-            <div class="navbar-line">
-                <a href="#" class="">
-                    <img src="images/vinayan-logo.png" class="navbar-logo" alt="Logo" />
+
+
+
+    <nav class="bg-white sticky shadow-sm w-full z-20 top-0 start-0 border-b border-gray-200">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://vinayan.net/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="/images/vinayan-logoo.jpg" class="h-16"
+                    alt="Vinayan(India) consulting and services PVT LTD Logo">
+                <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> -->
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <a type="button"
+                    class="bg-blue-800 text-white border border-1 border-blue-800 hover:bg-white hover:text-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-lg px-4 py-2 text-center">Contact
+                    Us</a>
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-md md:hidden"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 text-lg border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">About</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Products</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Services</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Blogs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home" class="home bg-blue-800">
+        <div class="mx-auto flex justify-center items-center py-[80px] sm:py-[160px]">
+            <div class="flex justify-evenly items-center w-full flex-wrap px-6 sm:px-24">
+                <div class="lg:w-full xl:w-[40%] text-white">
+                    <div class="text-5xl sm:text-5xl font-bold leading-32 my-4 drop-shadow-md"
+                        style="font-family: roboto-slab;">
+                        <h1 class="" style="line-height: 120%;">
+                            Merging Cutting Edge Technology with AI for Safer Roads
+                        </h1>
+                    </div>
+                    <div class="my-1 text-md md:text-xl drop-shadow-md sm:mx-0 mb-6">
+                        Revolutionizing traffic enforcement through the seamless integrationof AI to create a safer and
+                        more efficient future on the roads
+                    </div>
+                    <a
+                        class="border border-1 border-white text-white text-xl bg-transparent p-3 rounded-md hover:bg-white hover:text-blue-800">
+                        Get in Touch
+                    </a>
+                </div>
+                <div class="w-full lg:w-[30%] py-5">
+                    <iframe class="w-full h-[200px] md:h-[400px] lg:h-[300px] rounded-lg mt-10 sm:mt-0"
+                        src="https://www.youtube.com/embed/CJ__63nn488?si=T31T01ON_dkJpcmF" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="details" id="details">
+        <div class="mx-auto flex justify-center items-center my-[100px]">
+            <div class="flex justify-evenly items-center w-full flex-wrap px-6 sm:px-24">
+                <div class='w-full lg:w-[40%]'>
+                    <div class="text-3xl md:text-4xl font-bold leading-32 my-4 drop-shadow-md"
+                        style="font-family: roboto-slab;">
+                        Pioneering Traffic Safety Solutions with AI Integration
+                    </div>
+                    <div class="my-1 md:text-sm lg:text:md xl:text-lg drop-shadow-sm mb-2 sm:mx-0">
+                        Vinayan India is leading the charge in the traffic management solutions by harnessing the power
+                        of Artificial
+                        Intelligence (AI). We specialise in revolutionising the dynamics of traffic flow, dedicated to
+                        creating safer, more
+                        efficient, and sustainable transportation networks. Our commitment extends beyond conventional
+                        solutions; we leverage AI
+                        to tackle the intricate challenges posed by modern urban mobility.
+                    </div>
+                    <div class="my-1 md:text-sm lg:text:md xl:text-lg drop-shadow-sm mb-4 sm:mx-0">
+                        At Vinayan, we believe that the integration of AI is paramount to reshaping the landscape of
+                        urban transportation.
+                    </div>
+                    <a type="button"
+                        class="text-white bg-blue-800 border border-1 border-blue-800 hover:bg-white hover:text-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-lg px-4 py-2 text-center">Contact
+                        Us
+                    </a>
+                </div>
+                <div class="w-full lg:w-[30%] py-5">
+                    <div id="default-carousel" class="relative w-full rounded-xl" data-carousel="slide">
+                        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="images/carousel/img1.jpg"
+                                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-lg"
+                                    alt="...">
+                            </div>
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="images/carousel/img2.jpg"
+                                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-lg"
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote bg-blue-800 text-white" id="quote">
+        <div class="mx-auto text-center py-12">
+            <div class="text-3xl md:text-4xl font-bold leading-32 my-4 drop-shadow-md">
+                Get A Quote
+            </div>
+            <div class="text-2xl my-4 drop-shadow-md">
+                Schedule a meeting with us
+            </div>
+            <div>
+                <a type="button"
+                    class="text-blue-800 bg-white border border-1 border-blue-800 hover:bg-white hover:text-blue-800 text-xl font-bold rounded-md px-4 py-2 text-center">
+                    <span class="flex justify-center items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                        </svg>
+                        Talk to Us
+                    </span>
                 </a>
-                <div class="navbar-content" id="navbar-default">
-                    <ul class="nav-ul">
-                        <li>
-                            <a href="index.html" class="" aria-current="page">Home</a>
-                        </li>
-                        <li>
-                            <a href="About.html" class="">
-                                About</a>
-                        </li>
-                        <li>
-                            <a href="Products.html" class="">
-                                Products</a>
-                        </li>
-                        <li>
-                            <a href="Services.html" class="">
-                                Services</a>
-                        </li>
-                        <li>
-                            <a href="Contact.html" class="">
-                                Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="toggle_btn">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-                <div class="dropdown_menu">
-                    <li>
-                        <a href="index.html" class="" aria-current="page">Home</a>
-                    </li>
-                    <li>
-                        <a href="About.html" class="">
-                            About</a>
-                    </li>
-                    <li>
-                        <a href="Products.html" class="">
-                            Products</a>
-                    </li>
-                    <li>
-                        <a href="Services.html" class="">
-                            Services</a>
-                    </li>
-                    <li>
-                        <a href="Contact.html" class="">
-                            Contact</a>
-                    </li>
-                </div>
             </div>
-        </div>
-    </header>
-
-    <section id="home" class="home">
-        <div class="home-content">
-            <h1 class="home-title">
-                Introducing the <br> <span>Next-Gen</span> Traffic <br> Management<span> System</span>
-            </h1>
-            <p class="home-para in-left">
-                Experience a new era of traffic control through our advanced Handheld <span>Traffic Management
-                    System.</span> <br />
-                Precision with <span>AI Powered</span> by state-of-the-art.</p>
         </div>
     </section>
 
-    <!-- about -->
-    <section id="about" class="about">
-        <div class="about-container">
-            <h1 class="">About us</h1>
-            <hr class="service-hr">
-            <div class="about-content">
-                <div class="left in-left">
-                    <img src="./images/about.jpeg" alt="">
-                </div>
-                <div class="right">
-                    <div class="right-text">
-                        <p>
-                            We are a leading innovator in traffic management solutions. We specialize in revolutionizing
-                            the way traffic flows, ensuring safer, more efficient, and sustainable transportation
-                            networks. Our comprehensive suite of cutting-edge technologies and services is designed href
-                            tackle the complex challenges of modern urban mobility.
-                        </p>
-                        <p>
-                            Our mission is href create cities where people can move freely and confidently, while
-                            reducing the negative impacts of congestion and pollution.
-                        </p>
-                        <a href="/Products.html">
-                            Our Products
-                        </a>
+
+    <section class="services" id="services">
+        <div class="mx-auto text-center my-[100px]">
+            <div class="text-3xl md:text-4xl font-bold leading-32 my-4 drop-shadow-md my-5"
+                style="font-family: roboto-slab;">
+                Solutions We Provide
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="flex justify-center items-center gap-5 flex-wrap">
+                    <div
+                        class="w-80 p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                        <img class="w-full h-52 object-cover rounded-t-lg" alt="Card Image"
+                            src="https://img.freepik.com/free-photo/cctv-security-camera_1359-621.jpg?w=1380&t=st=1705061298~exp=1705061898~hmac=11ebf17fb51aee831c409488a3c200eab61804550915dae05967e3156b313809">
+                        <div class="p-4">
+                            <h2 class="text-2xl font-semibold my-3 text-blue-800">AI Integrated <br> Video Analytics
+                            </h2>
+                            <p class="text-gray-600">AI-powered video analysis for real-time insights, enhancing
+                                security, and optimizing operations through intelligent
+                                recognition.</p>
+                            <!-- <div class="flex justify-center items-center mt-4">
+                                <button
+                                    class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400">Learn More</button>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div
+                        class="w-80 p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                        <img class="w-full h-52 object-cover rounded-t-lg" alt="Card Image"
+                            src="https://img.freepik.com/free-photo/automatic-recognition-software-analyzing-city-elements_23-2150643780.jpg?w=1380&t=st=1705061953~exp=1705062553~hmac=0aefdc040d7a6d7f71b06843378ef0b4f97c8a214ffe27a136c1dcdf63ff8330">
+                        <div class="p-4">
+                            <h2 class="text-2xl font-semibold my-3 text-blue-800">Smart Traffic <br> Management System
+                            </h2>
+                            <p class="text-gray-600">Our Traffic Management service streamlines network traffic,
+                                enhancing speed, security, and resource allocation.</p>
+                            <!-- <div class="flex justify-center items-center mt-4">
+                                <button
+                                    class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400">Learn
+                                    More</button>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div
+                        class="w-80 p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                        <img class="w-full h-52 object-cover rounded-t-lg" alt="Card Image"
+                            src="https://img.freepik.com/free-photo/aerial-views-with-cars-streets_23-2148959679.jpg?w=1380&t=st=1705062732~exp=1705063332~hmac=8ebed22c2d78beb15710164f23923e42f1f50671813a3a66608faeec08c0ee69">
+                        <div class="p-4">
+                            <h2 class="text-2xl  font-semibold my-3 text-blue-800">Highway Traffic <br> Mangement
+                                Software</h2>
+                            <p class="text-gray-600">Traffic Management Software optimizes traffic flow, enhances
+                                safety, and streamlines operations through
+                                intelligent monitoring</p>
+                            <!-- <div class="flex justify-center items-center mt-4">
+                                <button
+                                    class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400">Learn
+                                    More</button>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div
+                        class="w-80 p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                        <img class="w-full h-52 object-cover rounded-t-lg" alt="Card Image"
+                            src="https://img.freepik.com/free-photo/facial-recognition-software_52683-104208.jpg?w=1480&t=st=1705062590~exp=1705063190~hmac=2f9b51824c9993d6e6cfede49e40fc531dde8018c8a0f24ad3800fba4100b1d8">
+                        <div class="p-4">
+                            <h2 class="text-2xl  font-semibold my-3 text-blue-800">AI Face <br> Recognition Software
+                            </h2>
+                            <p class="text-gray-600">Secure and efficient identity verification using AI-based facial
+                                analysis, providing enhanced access control</p>
+                            <!-- <div class="flex justify-center items-center mt-4">
+                                <button
+                                    class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400">Learn
+                                    More</button>
+                            </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-
-    <section id="services" class='services'>
-
-
-        <div class='service-container'>
-            <h1 class="">Our Services</h1>
-            <hr class="service-hr">
-            <div class="service-cards">
-                <div class="service-card">
-                    <img src='https://etimg.etb2bimg.com/photo/91585729.cms' alt="traffic-management" />
-                    <div class="service-card-content">
-                        <h5 class="">Smart Traffic Management System</h5>
-                        <p class="">Our Traffic Management service streamlines network
-                            traffic, enhancing speed, security, and resource allocation for seamless digital operations.
-                        </p>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <img src='https://img.freepik.com/premium-photo/smart-warehouse-management-system-using-augmented-reality-technology_31965-11938.jpg'
-                        alt="traffic-management" />
-                    <div class="service-card-content">
-                        <h5 class="">AI Video Analytic Solutions</h5>
-                        <p class="">AI Video Analytic Solutions enhance security and efficiency, providing real-time insights, anomaly detection, and actionable data for diverse applications
-                        </p>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <img src='https://etimg.etb2bimg.com/photo/91585729.cms' alt="traffic-management" />
-                    <div class="service-card-content">
-                        <h5 class="">Highway Trafic Mangement Software</h5>
-                        <p class="">Highway Traffic Management Software optimizes traffic flow, enhances safety, and streamlines operations through intelligent monitoring and analytics solutions.
-                        </p>
-                    </div>
-                </div>
-
-
+    <section class="clients bg-blue-800 text-white" id="clients">
+        <div class="mx-auto text-center py-12">
+            <div class="text-3xl md:text-4xl font-bold leading-32 my-4 drop-shadow-md my-5"
+                style="font-family: roboto-slab;">
+                Our Trusted Clients
             </div>
-        </div>
-
-    </section>
-
-
-    <section class="customer" id="customer">
-        <div class="customers-container">
-            <h1 class="">Our Customers</h1>
-            <hr class="customer-hr">
             <div class="slider">
                 <div class="slide-track">
                     <div class="slide">
-                        <img src="images/1.png" alt="Logo"/>
+                        <img src="images/1.png" alt="Logo" />
                     </div>
                     <div class="slide">
-                        <img src="images/2.png" alt="Logo"/>
+                        <img src="images/2.png" alt="Logo" />
                     </div>
                     <div class="slide">
-                        <img src="images/3.png" alt="Logo"/>
+                        <img src="images/3.png" alt="Logo" />
                     </div>
                     <div class="slide">
-                        <img src="images/4.png" alt="Logo"/>
+                        <img src="images/4.png" alt="Logo" />
                     </div>
                     <div class="slide">
-                        <img src="images/5.png" alt="Logo"/>
+                        <img src="images/5.png" alt="Logo" />
                     </div>
                     <div class="slide">
-                        <img src="images/6.png" alt="Logo"/>
+                        <img src="images/6.png" alt="Logo" />
                     </div>
                     <div class="slide">
-                        <img src="images/1.png" alt="Logo"/>
+                        <img src="images/1.png" alt="Logo" />
                     </div>
                     <div class="slide">
-                        <img src="images/2.png" alt="Logo"/>
+                        <img src="images/2.png" alt="Logo" />
                     </div>
                     <div class="slide">
-                        <img src="images/3.png" alt="Logo"/>
+                        <img src="images/3.png" alt="Logo" />
                     </div>
                     <div class="slide">
-                        <img src="images/4.png" alt="Logo"/>
+                        <img src="images/4.png" alt="Logo" />
                     </div>
                     <div class="slide">
-                        <img src="images/5.png" alt="Logo"/>
+                        <img src="images/5.png" alt="Logo" />
                     </div>
                     <div class="slide">
-                        <img src="images/6.png" alt="Logo"/>
+                        <img src="images/6.png" alt="Logo" />
                     </div>
-                    
-                    
                 </div>
             </div>
+    </section>
+
+
+
+    <section class="whychooseus" id="why-choose-us">
+        <div class="mx-auto text-center my-[100px]">
+            <div class="text-3xl md:text-4xl font-bold leading-32 my-4 drop-shadow-md my-5"
+                style="font-family: roboto-slab;">
+                Why Choose Us
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <div
+                        class="w-96 p-4 bg-white rounded-lg shadow-md shadow-blue-300 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                        <div class="p-4">
+                            <h2 class="text-2xl font-semibold my-3 text-blue-800">Artificial Intelligence <br> Driven
+                                Technology
+                            </h2>
+                            <p class="text-gray-600">Harness cutting-edge AI technology for precise and efficient
+                                traffic management solutions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="w-96 p-4 bg-white rounded-lg shadow-md shadow-blue-300 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                        <div class="p-4">
+                            <h2 class="text-2xl font-semibold my-3 text-blue-800">Smart Traffic <br> Enforcement
+                            </h2>
+                            <p class="text-gray-600">Redefine traffic enforcement with AI-enhanced laser devices,
+                                ensuring safety and accuracy on the roads.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="w-96 p-4 bg-white rounded-lg shadow-md shadow-blue-300 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                        <div class="p-4">
+                            <h2 class="text-2xl font-semibold my-3 text-blue-800">Comprehensive <br> Product Suite
+                            </h2>
+                            <p class="text-gray-600">Explore a range of advanced products, including ANPR systems, LIDAR
+                                technology, and speed display boards.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="w-96 p-4 bg-white rounded-lg shadow-md shadow-blue-300 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                        <div class="p-4">
+                            <h2 class="text-2xl font-semibold my-3 text-blue-800">24*7 Chatbot <br>
+                                Customer Support
+                            </h2>
+                            <p class="text-gray-600">Customer support with our dedicated chatbot, providing instant
+                                assistance for seamless interactions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="w-96 p-4 bg-white rounded-lg shadow-md shadow-blue-300 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                        <div class="p-4">
+                            <h2 class="text-2xl font-semibold my-3 text-blue-800">Sustainable <br>
+                                Urban Mobility
+                            </h2>
+                            <p class="text-gray-600">Harness cutting-edge AI technology for precise and efficient
+                                traffic management solutions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="w-96 p-4 bg-white rounded-lg shadow-md shadow-blue-300 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                        <div class="p-4">
+                            <h2 class="text-2xl font-semibold my-3 text-blue-800">Innovative <br>
+                                Solutions With AI
+                            </h2>
+                            <p class="text-gray-600">Pioneering the future of traffic management with our AI-integrated
+                                devices, bringing innovation to every road.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials bg-blue-800 text-white" id="testimonials">
+        <div class="text-center py-12">
+            <div class="text-3xl md:text-4xl font-bold leading-32 my-4 drop-shadow-md my-5"
+                style="font-family: roboto-slab;">
+                What our clients say
+            </div>
+            <div class="w-[90%] sm:w-[80%] mx-auto my-10">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="p-4 bg-white rounded-lg shadow-md shadow-blue-300">
+                            <div class="p-4">
+                                <p class="text-gray-600 mb-4"><i>"Impressed with [Your Company Name]'s AI-driven traffic
+                                        solutions! The integration of AI in traffic management, coupled
+                                        with laser speed devices, has elevated safety and efficiency. Exceptional
+                                        products and outstanding service!"</i>
+                                </p>
+                                <h2 class="text-2xl font-semibold mt-4 mb-1 text-blue-800">Vijay Patin</h2>
+                                <p class="text-gray-600">SSP, Highway Patrol Maharashtra</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="p-4 bg-white rounded-lg shadow-md shadow-blue-300">
+                            <div class="p-4">
+                                <p class="text-gray-600 mb-4"><i>"Revolutionary traffic management! [Your Company Name]
+                                        delivered an outstanding AI-powered solution. The intelligent
+                                        traffic management system, along with ANPR and laser devices, transformed our
+                                        operations. Highly recommend for
+                                        cutting-edge technology!"</i>
+                                </p>
+                                <h2 class="text-2xl font-semibold mt-4 mb-1 text-blue-800">Puspendar</h2>
+                                <p class="text-gray-600">Additional Transport Commissioner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="p-4 bg-white rounded-lg shadow-md shadow-blue-300">
+                            <div class="p-4">
+                                <p class="text-gray-600 mb-4"><i>"Unmatched innovation! [Your Company Name] provided us
+                                        with a comprehensive highway traffic management system,
+                                        integrating AI seamlessly. The result: smoother traffic flow and enhanced
+                                        safety. A game-changer in urban mobility!"</i>
+                                </p>
+                                <h2 class="text-2xl font-semibold mt-4 mb-1 text-blue-800">Vijay Patin</h2>
+                                <p class="text-gray-600">SSP Shimla City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="p-4 bg-white rounded-lg shadow-md shadow-blue-300">
+                            <div class="p-4">
+                                <p class="text-gray-600 mb-4"><i>"Secured with face recognition! [Your Company Name]'s
+                                        face recognition service is top-notch. The precision and security
+                                        it brings to our access control are commendable. Trustworthy technology for
+                                        personalized user experiences."</i>
+                                </p>
+                                <h2 class="text-2xl font-semibold mt-4 mb-1 text-blue-800">Vijay Patin</h2>
+                                <p class="text-gray-600">SSP, Highway Patrol Maharashtra</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="p-4 bg-white rounded-lg shadow-md shadow-blue-300">
+                            <div class="p-4">
+                                <p class="text-gray-600 mb-4"><i>"AI Video Analytics excellence! [Your Company Name]
+                                        impressed us with their video analytics solution. The AI-driven
+                                        insights are invaluable for security and operations. Exceptional service and
+                                        cutting-edge technology. Truly a reliable
+                                        partner!"</i>
+                                </p>
+                                <h2 class="text-2xl font-semibold mt-4 mb-1 text-blue-800">Vijay Patin</h2>
+                                <p class="text-gray-600">SSP, Highway Patrol Maharashtra</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="mx-auto flex md:justify-center items-center py-[80px] sm:py-[100px]">
+            <div class="flex justify-left md:justify-evenly items-center w-full flex-wrap px-4 md:px-6 sm:px-24">
+                <div class="mb-5">
+                    <div class="font-bold text-3xl mb-2">Reach Us</div>
+                    <div class=" text-xl mb-5">Feel free to reach to us for any queries</div>
+                    <div class="flex justify-left items-center gap-5 mb-4">
+                        <div class="border border-1 rounded-full p-3 bg-blue-800">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 text-white fill-white">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                            </svg>
+                        </div>
+                        <p class="font-bold">
+                            +91-8527988811
+                        </p>
+                    </div>
+                    <div class="flex justify-left items-center gap-5 mb-4">
+                        <div class="border border-1 rounded-full p-3 bg-blue-800">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6 text-white">
+                                <path
+                                    d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
+                                <path
+                                    d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
+                            </svg>
+                        </div>
+                        <p class="font-bold">
+                            info@vinayan.net
+                        </p>
+                    </div>
+                    <div class="flex justify-left items-center gap-5">
+                        <div class="border border-1 rounded-full p-3 bg-blue-800">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 text-white">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                            </svg>
+                        </div>
+                        <p class="font-bold">
+                            H3MC+XVP, Rd No. 224, Ramphal Chowk, Dwaraka, Block E, <br> Palam Extension, Palam, New
+                            Delhi,
+                            Delhi 110075
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="font-bold text-3xl mb-2">Get Started</div>
+                    <div class="font-semibold text-xl mb-5">Fill out the form below and we will get back to you <br>
+                        within <span class="font-bold text-blue-800">24 Hours</span></div>
+                    <form action="">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-4">
+                            <div>
+                                <label for="name" class="block text-sm">Name</label>
+                                <input type="text" name="name"
+                                    class="rounded-md border border-blue-400 outline-blue-800 w-full">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm">Email</label>
+                                <input type="email" name="email"
+                                    class="rounded-md border border-blue-400 outline-blue-800 w-full">
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-4">
+                            <div>
+                                <label for="phone" class="block text-sm">Phone</label>
+                                <input type="text" name="phone"
+                                    class="rounded-md border border-blue-400 outline-blue-800 w-full">
+                            </div>
+                            <div>
+                                <label for="subject" class="block text-sm">Subject</label>
+                                <input type="text" name="subject"
+                                    class="rounded-md border border-blue-400 outline-blue-800 w-full">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm">Type your message!</label>
+                            <textarea name="message" id=""
+                                class="rounded-md border border-blue-400 outline-blue-800 w-full"></textarea>
+                        </div>
+                        <div class="my-2">
+                            <button
+                                class="bg-blue-800 text-white border border-1 border-blue-800 hover:bg-white hover:text-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-lg px-6 py-2">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
 
 
-    <hr>
-
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <a href="#" class="logo">
-                    <img src='images/vinayan-logoo.jpg' class="" alt="FlowBite Logo" />
-                </a>
+    <footer class="bg-blue-800">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <!-- <div class="md:flex md:justify-between"> -->
+                <div class="grid grid-cols-2 gap-10 sm:gap-10 sm:grid-cols-3 md:grid-cols-4">
+                    <div class="mb-6 md:mb-0">
+                        <a href="https://vinayan.net" class="flex items-center">
+                            <img src="./images/vinayan-logoo.jpg" class="h-36 me-3 rounded-md" alt="Vinayan Logo"
+                                name="Vinayan(India) Consulting and Services Private Limited" />
+                        </a>
+                    </div>
+                    <div>
+                        <h2 class="mb-4 text-sm font-semibold uppercase text-white">Quick links</h2>
+                        <ul class="text-white font-medium">
+                            <li class="mb-1">
+                                <a href="#" class="hover:underline">Products</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#" class="hover:underline">Services</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#" class="hover:underline">Careers</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#" class="hover:underline">Blogs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-4 text-sm font-semibold uppercase text-white">Products</h2>
+                        <ul class="text-white font-medium">
+                            <li class="mb-1">
+                                <a href="#" class="hover:underline ">ANPR</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#" class="hover:underline">Lidar</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#" class="hover:underline">Body Worn Camera</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#" class="hover:underline">Interceptor</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-4 text-sm font-semibold uppercase text-white">Follow Us</h2>
+                        <div class="flex mt-4 sm:mt-0">
+                            <a href="#" class="">
+                                <i class="fa-brands fa-instagram text-2xl text-white"></i>
+                            </a>
+                            <a href="#" class="ml-4">
+                                <i class="fa-brands fa-facebook text-2xl text-white"></i>
+                            </a>
+                            <a href="#" class="ml-4">
+                                <i class="fa-brands fa-x-twitter text-2xl text-white"></i>
+                            </a>
+                            <a href="#" class="ml-4">
+                                <i class="fa-brands fa-linkedin text-2xl text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+            <hr class="my-6 border-white sm:mx-auto lg:my-8" />
+            <div class="sm:flex justify-center items-center text-center sm:items-center">
+                <span class="text-sm text-white sm:text-center">© 2024 <a
+                        href="https://vinayan.net/" class="hover:underline">Vinayan™</a>. All Rights Reserved.
+                </span>
+                
             </div>
-            <div class="footer-companyinfo">
-                <h2 class="companyinfo-title">Company</h2>
-                <ul class="company-info-items">
-                    <li class="list">
-                        <a href="About.html" class="link">About</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/company/vinayan-india-consulting-and-services-pvt-ltd/jobs/" class="link">Careers</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-companyinfo">
-                <h2 class="companysocial-title">Social</h2>
-                <ul class="company-social-items">
-                    <li class="list">
-                        <a href="https://www.linkedin.com/company/vinayan-india-consulting-and-services-pvt-ltd/mycompany/"
-                            target='blank' class=""><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#" class="hover:underline"><i class="" style="color:rgb(228, 64, 95);"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-companyinfo">
-                <h2 class="companylegal-title">Get In Touch</h2>
-                <ul class="company-legal-items">
-                    <li class="list">
-                        +91-8527988811
-                    </li>
-                    <li class="list">
-                        info@vinayan.net
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <hr class="footer-downhr" />
-        <div class="footer-downside">
-            <span class="footer-span-last">© 2023 <a href="index.html" class="footer-span-last-a">Vinayan</a>. All Rights
-                Reserved.
-            </span>
         </div>
     </footer>
 
+
+
+
+
+
+
+
+
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <script src="https://kit.fontawesome.com/22c3487832.js" crossorigin="anonymous"></script>
+
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            responsive: {
+                0: {
+                    items: 1
+                },
+                700: {
+                    items: 1
+                },
+                1000: {
+                    items: 3
+                }
+            },
+            loop: true,
+            margin: 24,
+            // padding: 24,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })
+    </script>
+
 </body>
 
 </html>
