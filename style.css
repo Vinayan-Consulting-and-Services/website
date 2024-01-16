@@ -3,6 +3,10 @@
     src: url('./assets/fonts/RobotoSlab-Bold.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 
 @keyframes scroll {
